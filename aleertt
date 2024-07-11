@@ -1,0 +1,69 @@
+  if (rowsInserted > 0) {
+            out.println("<script>alert('Concert added successfully.');</script>");
+        } else {
+            out.println("<script>alert('Failed to add concert.');</script>");
+        }
+
+        // Handle exceptions with alert messages in JavaScript
+        } catch (ClassNotFoundException | SQLException e) {
+            out.println("<script>alert('Error: " + e.getMessage() + "');</script>");
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                out.println("<script>alert('Error closing the database  if (rowsInserted > 0) {
+            out.println("<script>alert('Concert added successfully.');</script>");
+        } else {
+            out.println("<script>alert('Failed to add concert.');</script>");
+        }
+
+        // Handle exceptions with alert messages in JavaScript
+        } catch (ClassNotFoundException | SQLException e) {
+            out.println("<script>alert('Error: " + e.getMessage() + "');</script>");
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                out.println("<script>alert('Error closing the database connection: " + e.getMes  if (rowsInserted > 0) {
+            out.println("<script>alert('Concert added successfully.');</script>");
+        } else {
+            out.println("<script>alert('Failed to add concert.');</script>");
+        }
+
+        // Handle exceptions with alert messages in JavaScript
+        } catch (ClassNotFoundException | SQLException e) {
+            out.println("<script>alert('Error: " + e.getMessage() + "');</script>");
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                out.println("<script>alert('Error closing the database connection: " + e.getMessage() + "');</script>");
+            }
+        }sage() + "');</script>");
+            }
+        } connec  if (rowsInserted > 0) {
+            out.println("<script>alert('Concert added successfully.');</script>");
+        } else {
+            out.println("<script>alert('Failed to add concert.');</script>");
+        }
+
+        // Handle exceptions with alert messages in JavaScript
+        } catch (ClassNotFoundException | SQLException e) {
+            out.println("<script>alert('Error: " + e.getMessage() + "');</script>");
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                out.println("<script>alert('Error closing the database connection: " + e.getMessage() + "');</script>");
+            }
+        }tion: " + e.getMessage() + "');</script>");
+            }
+        }
